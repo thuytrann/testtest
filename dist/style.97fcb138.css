@@ -1,0 +1,122 @@
+body {
+  color: #1f1f1f;
+  padding: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+  width: 100%;
+}
+
+.logo img {
+  width: 3rem;
+  height: auto;
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #1f1f1f;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #5b81c4;
+}
+nav a.active {
+  font-weight: bold;
+}
+
+.gallery {
+  list-style-type: none;
+  padding: 0;
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+.gallery img {
+  max-width: 100%;
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+.gallery img:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  font-size: 72px;
+  max-width: 75%;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 52px;
+  max-width: 75%;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  max-width: 50%;
+  line-height: 1.5;
+}
+p a {
+  color: #5b81c4;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+p a:hover {
+  color: #1f1f1f;
+}
+
+hr.short {
+  width: 50%;
+  margin: 3rem 0;
+  background-color: #b8b8b8;
+  height: 1px;
+  border: none;
+}
+
+form p {
+  margin-bottom: 1.5rem;
+}
+form label {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: small;
+  margin-bottom: 0.5rem;
+}
+form input,
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid;
+  border-color: #b8b8b8;
+}
+form button {
+  background: #5b81c4;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: small;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+form button:hover {
+  background: #1f1f1f;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

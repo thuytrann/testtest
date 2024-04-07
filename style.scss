@@ -1,0 +1,139 @@
+// Body
+body {
+    color: #1f1f1f;
+    padding: 3rem;
+}
+
+// Header
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    width: 100%;
+}
+
+.logo img {
+    width: 3rem;
+    height: auto;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+        margin: 0 1rem;
+    }
+}
+
+nav a {
+    color: #1f1f1f;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        color: #5b81c4;
+    }
+
+    &.active {
+        font-weight: bold;
+    }
+}
+
+// Gallery
+.gallery {
+    list-style-type: none;
+    padding: 0;
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+    img {
+        max-width: 100%;
+        display: block;
+        transition: opacity .3s ease-in-out;
+
+        &:hover {
+            opacity: .75;
+        }
+    }
+}
+
+// Typography
+h1 {
+    font-size: 72px;
+    max-width: 75%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 52px;
+    max-width: 75%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p {
+    max-width: 50%;
+    line-height: 1.5;
+
+    a {
+        color: #5b81c4;
+        text-decoration: none;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            color: #1f1f1f;
+        }
+    }
+}
+
+hr.short {
+    width: 50%;
+    margin: 3rem 0;
+    background-color: lighten(#1f1f1f, 60%);
+    height: 1px;
+    border: none;
+}
+
+// Forms
+form {
+    p {
+        margin-bottom: 1.5rem;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: small;
+        margin-bottom: .5rem;
+    }
+
+    input,
+    textarea {
+        padding: .5rem;
+        border: 1px solid;
+        border-color: lighten(#1f1f1f, 60%);
+    }
+
+    button {
+        background: #5b81c4;
+        color: #fff;
+        padding: 1rem 2rem;
+        border: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: small;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    
+        &:hover {
+            background: #1f1f1f;
+        }
+    }
+}
+

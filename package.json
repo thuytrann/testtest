@@ -1,0 +1,19 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "cssnano": "^4.1.10",
+    "gsap": "^3.5.1"
+  }
+}
